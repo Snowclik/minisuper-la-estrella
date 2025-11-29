@@ -93,8 +93,7 @@
     <!-- Back Button -->
     <section class="bg-white border-b border-gray-200 py-4">
         <div class="container mx-auto px-4">
-            <a href="carrito_1.html"
-                class="inline-flex items-center gap-2 text-gray-600 hover:text-green-600 transition">
+            <a href="carrito.html" class="inline-flex items-center gap-2 text-gray-600 hover:text-green-600 transition">
                 <i data-lucide="arrow-left" class="w-5 h-5"></i>
                 <span class="font-medium">Volver al carrito</span>
             </a>
@@ -349,7 +348,7 @@
             localStorage.removeItem('cart');
 
             // Redirect to confirmation
-            window.location.href = 'confirmacion_1.html';
+            window.location.href = 'confirmacion.html';
         });
 
         // Initialize
@@ -358,7 +357,7 @@
 
         // Redirect if cart is empty
         if (cart.length === 0) {
-            window.location.href = 'productos_1.html';
+            window.location.href = 'index.html';
         }
     </script>
 </body>

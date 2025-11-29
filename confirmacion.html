@@ -227,8 +227,7 @@
 
             <!-- Actions -->
             <div class="flex flex-col sm:flex-row gap-4 fade-in-up" style="animation-delay: 0.4s;">
-                <a href="productos_1.html"
-                    class="flex-1 btn-primary text-white py-4 rounded-lg font-semibold text-center">
+                <a href="index.html" class="flex-1 btn-primary text-white py-4 rounded-lg font-semibold text-center">
                     <i data-lucide="home" class="w-5 h-5 inline mr-2"></i>
                     Volver al Inicio
                 </a>
@@ -271,7 +270,7 @@
 
         if (!orderData) {
             // Redirect if no order data
-            window.location.href = 'productos_1.html';
+            window.location.href = 'index.html';
         } else {
             // Populate order details
             document.getElementById('order-number').textContent = '#' + orderData.orderNumber;

@@ -91,8 +91,7 @@
     <!-- Back Button -->
     <section class="bg-white border-b border-gray-200 py-4">
         <div class="container mx-auto px-4">
-            <a href="productos_1.html"
-                class="inline-flex items-center gap-2 text-gray-600 hover:text-green-600 transition">
+            <a href="index.html" class="inline-flex items-center gap-2 text-gray-600 hover:text-green-600 transition">
                 <i data-lucide="arrow-left" class="w-5 h-5"></i>
                 <span class="font-medium">Volver a productos</span>
             </a>
@@ -115,8 +114,7 @@
                     <i data-lucide="shopping-cart" class="w-16 h-16 text-gray-300 mx-auto mb-4"></i>
                     <h3 class="text-xl font-semibold text-gray-800 mb-2">Tu carrito está vacío</h3>
                     <p class="text-gray-500 mb-6">Agrega productos para comenzar tu compra</p>
-                    <a href="productos_1.html"
-                        class="inline-block btn-primary text-white px-6 py-3 rounded-lg font-medium">
+                    <a href="index.html" class="inline-block btn-primary text-white px-6 py-3 rounded-lg font-medium">
                         Ver productos
                     </a>
                 </div>
@@ -264,7 +262,7 @@
         // Checkout button
         document.getElementById('checkout-btn').addEventListener('click', () => {
             if (cart.length > 0) {
-                window.location.href = 'pago_1.html';
+                window.location.href = 'pago.html';
             }
         });
 

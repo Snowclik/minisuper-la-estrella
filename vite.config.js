@@ -6,15 +6,15 @@ export default defineConfig({
         outDir: 'dist',
         rollupOptions: {
             input: {
-                main: './productos_1.html',
-                carrito: './carrito_1.html',
-                pago: './pago_1.html',
-                confirmacion: './confirmacion_1.html'
+                main: './index.html',
+                carrito: './carrito.html',
+                pago: './pago.html',
+                confirmacion: './confirmacion.html'
             }
         }
     },
     server: {
         port: 3000,
-        open: '/productos_1.html'
+        open: '/index.html'
     }
 })
